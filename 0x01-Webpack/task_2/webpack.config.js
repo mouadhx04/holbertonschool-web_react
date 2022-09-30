@@ -2,7 +2,7 @@ const path = require("path");
 
 module.exports = {
   mode: 'production',
-  entry: './js/dashboard_main.js',
+  entry: path.resolve(__dirname, 'js/dashboard_main.js'),
   performance: {
     maxAssetSize: 1000000,
     maxEntrypointSize: 1000000,
