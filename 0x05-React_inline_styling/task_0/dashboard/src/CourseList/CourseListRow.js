@@ -41,7 +41,7 @@ CourseListRow.defaultProps = {
   isHeader: false,
   textSecondCell: null,
 };
-
+// update
 CourseListRow.propTypes = {
   isHeader: PropTypes.bool,
   textFirstCell: PropTypes.string.isRequired,
