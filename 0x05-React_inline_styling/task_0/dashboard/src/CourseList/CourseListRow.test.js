@@ -13,7 +13,7 @@ describe("<CourseListRow />", () => {
     );
     wrapper.update();
     const item = wrapper.find("th");
-
+    // modify
     expect(item).toHaveLength(1);
     expect(item.prop("colSpan")).toEqual("2");
   });
