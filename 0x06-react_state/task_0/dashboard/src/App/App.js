@@ -154,5 +154,5 @@ const styles = StyleSheet.create({
     },
   },
 });
-//update
+
 export default App;
