@@ -4,7 +4,7 @@ import CourseList from "./CourseList";
 import { StyleSheetTestUtils } from "aphrodite";
 
 describe("<CourseList />", () => {
-  let listCourses;
+  let listCourses; //update
 
   beforeAll(() => {
     StyleSheetTestUtils.suppressStyleInjection();
