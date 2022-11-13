@@ -11,7 +11,7 @@ export function getFooterCopy(isIndex) {
     msg = "Holberton School main dashboard";
   }
 
-  return msg;
+  return msg; //msg
 }
 
 export function getLatestNotification() {
