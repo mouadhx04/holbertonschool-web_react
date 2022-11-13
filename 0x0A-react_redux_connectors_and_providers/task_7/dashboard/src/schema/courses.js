@@ -8,4 +8,4 @@ const coursesNormalizer = (data) => {
   return normalizedData.entities.courses;
 };
 
-export default coursesNormalizer;
+export default coursesNormalizer; //update
