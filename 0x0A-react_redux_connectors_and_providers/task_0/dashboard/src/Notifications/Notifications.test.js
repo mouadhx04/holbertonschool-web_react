@@ -116,7 +116,7 @@ describe("<Notifications />", () => {
       const wrapper = mount(<Notifications displayDrawer />);
       wrapper.update();
       const listItems = wrapper.find("NotificationItem");
-      expect(listItems).toHaveLength(1);
+      expect(listItems).toHaveLength(1); //update
       // expect(listItems.html()).toEqual(
       //   '<li data-notification-type="default">No new notification for now</li>'
       // );
