@@ -11,7 +11,7 @@ export const boundSelectCourse = (index) => dispatch(selectCourse(index));
 
 export const unSelectCourse = (index) => {
   return {
-    type: UNSELECT_COURSE,
+    type: UNSELECT_COURSE, //update
     index,
   };
 };
